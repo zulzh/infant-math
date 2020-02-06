@@ -88,13 +88,13 @@ public class IntMathQuestion {
         //1.2 取得数字1
         switch (index){
             case 0:
-                resultString += " __ "+ operator.getOperator()+ " "+numTwo+" "+ " = " +" "+result+" ";
+                resultString += "(&nbsp;&nbsp;&nbsp;&nbsp;)"+ operator.getOperator()+ " "+numTwo+" "+ " = " +" "+result+" ";
                 break;
             case 1:
-                resultString += " "+numOne+" "+ operator.getOperator()+ " __ " + " = " +" "+result+" ";
+                resultString += " "+numOne+" "+ operator.getOperator()+ "(&nbsp;&nbsp;&nbsp;&nbsp;)" + " = " +" "+result+" ";
                 break;
             case 2:
-                resultString += " "+numOne+" "+ operator.getOperator()+ " "+numTwo+" " + " = " +" __ ";
+                resultString += " "+numOne+" "+ operator.getOperator()+ " "+numTwo+" " + " = " +"(&nbsp;&nbsp;&nbsp;&nbsp;)";
                 break;
         }
 

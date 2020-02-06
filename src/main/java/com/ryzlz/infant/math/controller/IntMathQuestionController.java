@@ -15,8 +15,8 @@ public class IntMathQuestionController {
         List<Integer> operator = new ArrayList<>();
         operator.add(IntMathQuestion.OPERATOR_ADD);
         operator.add(IntMathQuestion.OPERATOR_SUB);
-        IntMathQuestion intMathQuestion = new IntMathQuestion(0,9,
-                0,9,0,10,operator,IntMathQuestion.FILL_PRINT_TYPE,false);
+        IntMathQuestion intMathQuestion = new IntMathQuestion(0,99,
+                0,99,0,100,operator,IntMathQuestion.FILL_PRINT_TYPE,false);
 
 
         List<String> questionList = new ArrayList<>();

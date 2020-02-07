@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:display="http://www.w3.org/1999/xhtml">
 <head>
-    <title>数学试卷-10以内加减</title>
+    <title>数学试卷-百以内加减</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <style>
         html {
